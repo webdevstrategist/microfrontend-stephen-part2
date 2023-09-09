@@ -1,10 +1,8 @@
 name: Container Deployment
 on:
   push:
-    branches: 
-      - master
-    paths: 
-      - "packages/container/**"
+    branches: ["master","main"]
+    paths: ["packages/container/**"]
 
 defaults:
   run:
